@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-formhelpers.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/jquery-ui.min.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+</script>
+<script src="js/jquery.min.js"></script> 
+<script src="js/numbermasking.js"></script> 
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40978251-2', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+</head>
+<body>
+<!--start header from here-->
+<header class="bg_trans header" id="headerbox">
+<div class="container-fluid">
+<div class="col-sm-3 logo"><a href="http://www.payscout.com" target="_parent" title="Payscout Inc"><span class="logo_img"></span></a></div>
+<div class="col-sm-6 nav_box"><nav class="navbar yamm  navbar-default">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+ <!--marchant links-->
+        <li class="dropdown"><A class="dropdown-toggle activeline" href="#" title="Merchants" data-toggle="dropdown">Merchants</A>
+              <ul class="dropdown-menu marchant">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content matchant_content">
+                    <div class="row">
+                        <ul class="col-sm-2 small_box44 list-unstyled">
+                        <li>
+                          <p><strong>BY INDUSTRY</strong></p>
+                        </li>
+                      <li><a href="retail-credit-card-processing.php" title="Retail Processing">Retail </a></li>
+                        <li><a href="ecommerce.php" title="Ecommerce Processing">E-commerce</a></li>
+                        <li><a href="high-risk-credit-card-processing.php" title="High Risk Processing">High Risk </a></li>
+                         <li><a href="debt-collection-credit-card-processing.php" title="Debt Collection">Debt Collection </a></li>
+                        <li><a href="nonprofit.php" title="Nonprofit">Nonprofit</a></li>
+                        <li><a href="cloud.php" title="Cloud Processing">Cloud</a></li>
+                        <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
+                        <li><a href="other.php" title="Other Services">Other</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>BY BUSINESS NEED</strong></p>
+                        </li>
+                        <li><a href="retail-credit-card-processing2.php" title="Retail Point of Sale">Retail (POS)</a></li>
+                        <li><a href="online.php" title="Online Processing">Online</a></li>
+                        <li><a href="mobile.php" title="Mobile Processing">Mobile </a></li>
+                        <li><a href="phone-order.php" title="Phone Processing">Phone Order</a></li>
+                        <li><a href="quickbooks-credit-card-processing.php" title="QuickBooks Processing">QuickBooks</a></li>
+                        <li><a href="omni-channel2.php" title="Omni-Channel">Omni-Channel (All in One)</a></li>
+                        <li><a href="emv-upgrade.php" title="EMV Upgrade">EMV Upgrade</a></li>
+                        <li><a href="ach-processing.php" title="ACH Processing">ACH Processing</a></li>
+                        <li><a href="surcharge-processing.php" title="Surcharge Processing">Surcharge Processing</a></li>
+                        <li><a href="international-processing.php" title="International Processing">International Processing</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 small_box3 list-unstyled">
+                        <li>
+                          <p><strong>BY BUSINESS SIZE</strong></p>
+                        </li>                       
+                        <li><a href="small.php" title="Solutions for Small type of Business">Small </a></li>
+                        <li><a href="medium.php" title="Solutions for Medium type of Business">Medium</a></li>
+                        <li><a href="enterprise.php" title="Enterprise Business Solutions">Enterprise</a></li>
+                      </ul>
+                      
+                     <ul class="col-sm-2 last_box3 list-unstyled">
+                        <li>
+                          <p><strong>BY PROVIDER COMPARISON</strong></p>
+                        </li>
+                        <li><a href="authorize.php" title="Authorize.net">Authorize.net </a></li>
+                        <li><a href="paypal.php" title="Paypal">Paypal</a></li>
+                        <li><a href="intuit.php" title="Intuit QuickBooks">Intuit QuickBooks</a></li>
+                        <li><a href="square.php" title="Square">Square</a></li>
+                        <li><a href="chase.php" title="Chase Paymentech">Chase Paymentech</a></li>
+                        <li><a href="bofa.php" title="Bank of Amercia">Bank of Amercia</a></li>
+                        <li><a href="wells-fargo.php" title="Wells Fargo">Wells Fargo</a></li>
+                        <li><a href="worldpay.php" title="Worldpay">Worldpay</a></li>
+                        <li><a href="heartland.php" title="Heartland">Heartland</a></li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end marchant links-->
+ <!--product links-->
+        <li class="dropdown"><a href="#" name="#products" title="Products" data-toggle="dropdown" class="dropdown-toggle">Products</a> <ul class="dropdown-menu product_left">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content product_links">
+                    <div class="row">
+                      <ul class="col-sm-2 first_box2 list-unstyled">
+                        <li>
+                             <p><strong>BY REGION</strong></p>
+                        </li>
+                        <li><a href="index.php" title="Payscout offer services in United States">United States</a></li>
+                        <li><a href="china.php" title="Payscout offer services in China">China</a></li>
+                        <li><a href="asia-pacific.php" title="Payscout offer services in Asia Pacific">Asia Pacific</a></li>
+                        <li><a href="brazil.php" title="Payscout offer services in Brazil">Brazil</a></li>
+                        <li><a href="latin-america.php" title="Payscout offer services in Latin Amercia">Latin Amercia</a></li>
+                        <li><a href="caribbean.php" title="Payscout offer services in Caribbean">Caribbean</a></li>
+                        <li><a href="europe.php" title="Payscout offer services in Europe">Europe</a></li>
+                        <li><a href="canada.php" title="Payscout offer services in Canada">Canada</a></li>
+                        <li><a href="australia.php" title="Payscout offer services in Australia">Australia</a></li>
+                        <li><a href="us-territories.php" title="Payscout offer services in US Territories">US Territories</a></li>
+                       </ul>
+                                             
+                      <ul class="col-sm-2 last_box2 list-unstyled">
+                        <li>
+                            <p><strong>SOLUTIONS</strong></p>
+                        </li>
+                        <li><a href="omni-channel.php" title="Omni-Channel Solutions">Omni-Channel (All in One)</a></li>
+                        <li><a href="virtual-terminal.php" title="Virtual Terminal">Virtual Terminal</a></li>
+                        <li><a href="tokenization.php" title="Tokenization Solutions">Tokenization</a></li>
+                        <li><a href="recurring-billing.php" title="Recurring Billing">Recurring Billing</a></li>
+                        <li><a href="fraud-protection.php" title="Fraud Protection">Fraud Protection</a></li>
+                        <li><a href="high-risk-credit-card-processing2.php" title="High Risk Processing">High Risk Processing</a></li>
+                        <li><a href="free-rate-analysis.php" title="Free Rate Analysis">Free Rate Analysis</a></li>
+                      </ul>
+                      <ul class="col-sm-2 last_box2 list-unstyled">
+                        <li>
+                          <p><strong>PROCESSING EQUIPMENT</strong></p>
+                        </li>
+                        <li><a href="emv-devices.php" title="EMV Enabled Devices">EMV Enabled Devices </a></li>
+                        <li><a href="pos-equipment.php" title="Point of Sale">Point of Sale</a></li>
+                        <li><a href="wireless-equipment.php" title="Wireless">Wireless</a></li>
+                        <li><a href="mobile-pos-reader.php" title="Mobile POS Reader">Mobile POS Reader</a></li>
+                        <li><a href="china-unionpay-pos.php" title="China UnionPay POS">China UnionPay POS</a></li>
+                        <li><a href="order.php" title="Order Processing">Order</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 last_box5 list-unstyled">
+                        <li>
+                          <p><strong>SOFTWARE</strong></p>
+                        </li>
+                        <li><a href="shopping-cart-plugins.php" title="Shopping Cart Plugins">Shopping Cart Plugins</a></li>
+                        <li><a href="debt-collection-software.php" title="Debt Collection">Debt Collection</a></li>
+                        <li><a href="surcharge.php" title="Surcharge">Surcharge </a></li>
+                        <li><a href="quickbooks-credit-card-processing2.php" title="QuickBooks">QuickBooks</a></li>
+                        <li><a href="custom-integration.php" title="Custom Integration">Custom Integration</a></li>
+                     </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end product links-->
+        
+         <!--partner links-->
+        <li class="dropdown"><a href="#" name="#partner" title="Partners" data-toggle="dropdown" class="dropdown-toggle">Partners</a> <ul class="dropdown-menu partner_left">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content partner_link">
+                    <div class="row">
+                      <ul class="col-sm-2 last_box6 list-unstyled">
+                        <li>
+                          <p><strong>BECOME A PARTNER</strong></p>
+                        </li>
+                        <li><a href="iso-agents.php" title="ISO's and Agents">ISO's and Agents</a></li>
+                        <li><a href="referral-program.php" title="Referral Program">Referral Program</a></li>
+                        <li><a href="software-vendors.php" title="Software Vendors">Software Vendors</a></li>
+                        <li><a href="equipment-vendors.php" title="Equipment Vendors">Equipment Vendors</a></li>
+                        <li><a href="featured-partners.php" title="Featured Partners">Featured Partners</a></li>
+                        <li><a href="partner-testimonials.php" title="Partner Testimonials">Partner Testimonials</a></li>
+                        <li><a href="become-a-partner.php" title="Become a Partner Now">Become a Partner Now</a></li>
+                      </ul>
+                      <ul class="col-sm-2 last_box7 list-unstyled">
+                        <li>
+                          <p><strong>EXISTING PARTNERS</strong></p>
+                        </li>
+                        <li><a href="resource-center2.php" title="Resource Center">Resource Center</a></li>
+                        <li><a href="https://crm.payscout.net/Login.aspx" target="_blank" title="CRM Login">CRM Login</a></li>
+                        <li><a href="https://secure.payscout.com/resellers/login.php" target="_blank" title="Gateway Reseller Login">Gateway Reseller Login</a></li>
+                        <li><a href="#" title="Application Manager">Application Manager</a></li>
+                        </ul>
+                      
+                      
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end partner links-->
+        
+       <!--support links-->
+        <li class="dropdown"><a href="#" name="#support" data-toggle="dropdown" title="Customer Support" class="dropdown-toggle">Support</a>
+              <ul class="dropdown-menu support_left ">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content support_link">
+                    <div class="row">
+                      <ul class="col-sm-2 support_box list-unstyled">
+                        <li>
+                          <p><strong>MERCHANTS</strong></p>
+                        </li>
+                        <li><a href="customer-service.php" title="Customer Service">Customer Service</a></li>
+                        <li><a href="technical-support.php" title="Technical Support">Technical Support</a></li>
+                        <li><a href="sales-department.php" title="Sales Department">Sales Department</a></li>
+                        <li><a href="update-my-account.php" title="Update My Account">Update My Account</a></li>
+                        <li><a href="http://www.payscout.com/merchants/login.php" target="_blank" title="Application Status">My Application Status</a></li>
+                         <li><a href="my-merchant-statements.php" title="My Merchant Statements">My Merchant Statements</a></li>
+                        <li><a href="https://secure.payscout.com/merchants/login.php" target="_blank" title="Payscout Gateway Login">Payscout Gateway Login</a></li>
+                        <li><a href="https://secure.payscout.net/management" target="_blank" title="Offshore Gateway Login">Offshore Gateway Login</a></li>
+                                   </ul>
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>PARTNERS</strong></p>
+                        </li>
+                        <li><a href="partners-customer-service.php" title="Customer Service">Customer Service </a></li>
+                        <li><a href="partners-technical-support.php" title="Technical Support">Technical Support</a></li>
+                        <li><a href="partners-faqs.php" title="FAQ's">FAQ's</a></li>
+                         <li><a href="https://crm.payscout.net/Login.aspx" target="_blank" title="CRM Login">CRM Login</a></li>
+                         <li><a href="https://secure.payscout.com/resellers/login.php" target="_blank" title="Gateway Reseller Login">Gateway Reseller Login</a></li>
+                        <li><a href="#" title="Application Manager">Application Manager</a></li>
+                          </ul>
+                      
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>DEVELOPERS</strong></p>
+                        </li>
+                        <li><a href="gateway-api.php" title="Gateway API">Gateway API</a></li>
+                        <li><a href="mobile-api.php" title="Mobile API">Mobile API </a></li>
+                        <li><a href="international-api.php" title="International API">International API</a></li>
+                        <li><a href="shopping-cart-plugins.php" title="Shopping Cart Plugins">Shopping Cart Plugins</a></li>
+                        <li><a href="custom-integration.php" title="Custom Integration">Custom Integration</a></li>
+                     </ul>
+                      
+                      <ul class="col-sm-2 last_box list-unstyled">
+                        <li>
+                          <p><strong>LEARNING &amp; RESOURCES</strong></p>
+                        </li>
+                        <li><a href="resource-center2.php" title="Resource Center">Resource Center </a></li>
+                        <li><a href="http://blog.payscout.com" target="_blank" title="Community Forum">Payscout Blog</a></li>
+                        <li><a href="newsroom.php" title="Newsroom">Newsroom</a></li>
+                      </ul>
+
+                      
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </li>
+        <!--/.support links-->
+              </ul>
+
+    </div><!-- /.navbar-collapse -->
+
+</nav></div>
+<div class="col-sm-3 hidden-xs hidden-sm">
+<ul class="top_links">
+<li>1.888.689.6088</li>
+<li id="comm100-button-2595">Live Chat</li>
+<li><a href="gateway-login.php" title="Merchant Login"> Login</a></li>
+
+</ul>
+<div class="started_btn"> <a href="get-started.php" title="Get Started" class="btn btn-primary">GET STARTED</button></a>
+</div>
+</div>
+
+</div>
+</header>
+<!--/. end header from here-->
+
+
+<!--start header new from here-->
+<header class="bg_white header" id="newmenu">
+<div class="container-fluid">
+<div class="col-sm-3 logo"><a href="http://www.payscout.com"><span class="flip_logo"></span></a></div>
+<div class="col-sm-6 nav_box"><nav class="navbar yamm  navbar-default">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav menu_second" >
+ <!--marchant links-->
+        <li class="dropdown"><a href="#" data-toggle="dropdown" title="Merchants" class="dropdown-toggle">Merchants</a>
+              <ul class="dropdown-menu marchant">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content matchant_content">
+                    <div class="row">
+                     
+                      <ul class="col-sm-2 small_box44 list-unstyled">
+                        <li>
+                          <p><strong>BY INDUSTRY</strong></p>
+                        </li>
+                        <li><a href="retail-credit-card-processing.php" title="Retail Processing">Retail </a></li>
+                        <li><a href="ecommerce.php" title="E-commerce Processing">E-commerce</a></li>
+                        <li><a href="high-risk-credit-card-processing.php" title="High Risk Processing">High Risk </a></li>
+                         <li><a href="debt-collection-credit-card-processing.php" title="Debt Collection">Debt Collection </a></li>
+                        <li><a href="nonprofit.php" title="Nonprofit">Nonprofit</a></li>
+                        <li><a href="cloud.php" title="Cloud Services">Cloud</a></li>
+                        <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
+                        <li><a href="other.php" title="Other">Other</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>BY BUSINESS NEED</strong></p>
+                        </li>
+                           <li><a href="retail-credit-card-processing2.php" title="Retail">Retail (POS)</a></li>
+                        <li><a href="online.php" title="Online Processing">Online</a></li>
+                        <li><a href="mobile.php" title="Mobile Processing">Mobile </a></li>
+                        <li><a href="phone-order.php" title="Phone Processing">Phone Order</a></li>
+                        <li><a href="quickbooks-credit-card-processing.php" title="QuickBooks Processing">QuickBooks</a></li>
+                        <li><a href="omni-channel2.php" title="Omni-Channel Processing">Omni-Channel (All in One)</a></li>
+                        <li><a href="emv-upgrade.php" title="EMV Upgrade">EMV Upgrade</a></li>
+                        <li><a href="ach-processing.php" title="ACH Processing">ACH Processing</a></li>
+                        <li><a href="surcharge-processing.php" title="Surcharge Processing">Surcharge Processing</a></li>
+                        <li><a href="international-processing.php" title="International Processing">International Processing</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 small_box3 list-unstyled">
+                        <li>
+                          <p><strong>BY BUSINESS SIZE</strong></p>
+                        </li>
+                        <li><a href="small.php" title="Solutions for Small type of Business">Small </a></li>
+                        <li><a href="medium.php" title="Solutions for Medium type of Business">Medium</a></li>
+                        <li><a href="enterprise.php" title="Enterprise Business Solutions">Enterprise</a></li>
+                      </ul>
+                      
+                     <ul class="col-sm-2 last_box3 list-unstyled">
+                        <li>
+                          <p><strong>BY PROVIDER COMPARISON</strong></p>
+                        </li>
+                         <li><a href="authorize.php" title="Authorize.net">Authorize.net </a></li>
+                        <li><a href="paypal.php" title="Paypal">Paypal</a></li>
+                        <li><a href="intuit.php" title="Intuit QuickBooks">Intuit QuickBooks</a></li>
+                        <li><a href="square.php" title="Square">Square</a></li>
+                        <li><a href="chase.php" title="Chase Paymentech">Chase Paymentech</a></li>
+                        <li><a href="bofa.php" title="Bank of Amercia">Bank of Amercia</a></li>
+                        <li><a href="wells-fargo.php" title="Wells Fargo">Wells Fargo</a></li>
+                        <li><a href="worldpay.php" title="Worldpay">Worldpay</a></li>
+                        <li><a href="heartland.php" title="Heartland">Heartland</a></li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end marchant links-->
+ <!--product links-->
+        <li class="dropdown"><a href="#" name="#products" data-toggle="dropdown" title="Products" class="dropdown-toggle">Products </a> <ul class="dropdown-menu product_left">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content product_links">
+                    <div class="row">
+                     <ul class="col-sm-2 first_box2 list-unstyled">
+                        <li>
+                             <p><strong>BY REGION</strong></p>
+                        </li>
+                        <li><a href="index.php" title="Payscout offer services in United States">United States</a></li>
+                        <li><a href="china.php" title="Payscout offer services in China">China</a></li>
+                        <li><a href="asia-pacific.php" title="Payscout offer services in Asia Pacific">Asia Pacific</a></li>
+                        <li><a href="brazil.php" title="Payscout offer services in Brazil">Brazil</a></li>
+                        <li><a href="latin-america.php" title="Payscout offer services in Latin Amercia">Latin Amercia</a></li>
+                        <li><a href="caribbean.php" title="Payscout offer services in Caribbean">Caribbean</a></li>
+                        <li><a href="europe.php" title="Payscout offer services in Europe">Europe</a></li>
+                        <li><a href="canada.php" title="Payscout offer services in Canada">Canada</a></li>
+                        <li><a href="australia.php" title="Payscout offer services in Australia">Australia</a></li>
+                        <li><a href="us-territories.php" title="Payscout offer services in US Territories">US Territories</a></li>
+                      </ul>
+                      <ul class="col-sm-2 last_box2 list-unstyled">
+                        <li>
+                                  <p><strong>SOLUTIONS</strong></p>
+                        </li>
+                        <li><a href="omni-channel.php" title="Omni-Channel Solutions">Omni-Channel (All in One)</a></li>
+                        <li><a href="virtual-terminal.php" title="Virtual Terminal">Virtual Terminal</a></li>
+                        <li><a href="tokenization.php" title="Tokenization Solutions">Tokenization</a></li>
+                        <li><a href="recurring-billing.php" title="Recurring Billing">Recurring Billing</a></li>
+                        <li><a href="fraud-protection.php" title="Fraud Protection">Fraud Protection</a></li>
+                        <li><a href="high-risk-credit-card-processing2.php" title="High Risk Processing">High Risk Processing</a></li>
+                        <li><a href="free-rate-analysis.php" title="Free Rate Analysis">Free Rate Analysis</a></li>
+                         </ul>
+                      <ul class="col-sm-2 last_box2 list-unstyled">
+                        <li>
+                          <p><strong>PROCESSING EQUIPMENT</strong></p>
+                        </li>
+                        <li><a href="emv-devices.php" title="EMV Enabled Devices">EMV Enabled Devices </a></li>
+                        <li><a href="pos-equipment.php" title="Point of Sale">Point of Sale</a></li>
+                        <li><a href="wireless-equipment.php" title="Wireless">Wireless</a></li>
+                        <li><a href="mobile-pos-reader.php" title="Mobile POS Reader">Mobile POS Reader</a></li>
+                        <li><a href="china-unionpay-pos.php" title="China UnionPay POS">China UnionPay POS</a></li>
+                        <li><a href="order.php" title="Order Processing">Order</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 last_box5 list-unstyled">
+                        <li>
+                          <p><strong>SOFTWARE</strong></p>
+                        </li>
+                       <li><a href="shopping-cart-plugins.php" title="Shopping Cart Plugins">Shopping Cart Plugins</a></li>
+                        <li><a href="debt-collection-software.php" title="Debt Collection">Debt Collection</a></li>
+                        <li><a href="surcharge.php" title="Surcharge">Surcharge </a></li>
+                        <li><a href="quickbooks-credit-card-processing2.php" title="QuickBooks">QuickBooks</a></li>
+                        <li><a href="custom-integration.php" title="Custom Integration">Custom Integration</a></li>
+                         </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end product links-->
+        
+         <!--partner links-->
+        <li class="dropdown"><a href="#" name="#partner"  title="Partners" data-toggle="dropdown" class="dropdown-toggle">Partners </a> <ul class="dropdown-menu partner_left">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content partner_link">
+                    <div class="row">
+                      <ul class="col-sm-2 last_box list-unstyled">
+                        <li>
+                          <p><strong>BECOME A PARTNER</strong></p>
+                        </li>
+                        <li><a href="iso-agents.php" title="ISO's and Agents">ISO's and Agents</a></li>
+                        <li><a href="referral-program.php" title="Referral Program">Referral Program</a></li>
+                        <li><a href="software-vendors.php" title="Software Vendors">Software Vendors</a></li>
+                        <li><a href="equipment-vendors.php" title="Equipment Vendors">Equipment Vendors</a></li>
+                        <li><a href="featured-partners.php" title="Featured Partners">Featured Partners</a></li>
+                        <li><a href="partner-testimonials.php" title="Partner Testimonials">Partner Testimonials</a></li>
+                        <li><a href="become-a-partner.php" title="Become a Partner Now">Become a Partner Now</a></li>
+                      </ul>
+                      <ul class="col-sm-2 last_box7 list-unstyled">
+                        <li>
+                          <p><strong>EXISTING PARTNERS</strong></p>
+                        </li>
+                       <li><a href="resource-center.php" title="Resource Center">Resource Center</a></li>
+                        <li><a href="https://crm.payscout.net/Login.aspx" target="_blank" title="CRM Login">CRM Login</a></li>
+                        <li><a href="https://secure.payscout.com/resellers/login.php" target="_blank" title="Gateway Reseller Login">Gateway Reseller Login</a></li>
+                        <li><a href="#" title="Application Manager">Application Manager</a></li>
+                        </ul>
+                      
+                      
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        <!--/. end partner links-->
+        
+       <!--support links-->
+        <li class="dropdown"><a href="#" name="#support" data-toggle="dropdown" class="dropdown-toggle" title="Customer Support">Support</a>
+              <ul class="dropdown-menu support_left ">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content support_link">
+                    <div class="row">
+                      <ul class="col-sm-2 support_box list-unstyled">
+                        <li>
+                          <p><strong>MERCHANTS</strong></p>
+                        </li>
+                        <li><a href="customer-service.php" title="Customer Service">Customer Service</a></li>
+                        <li><a href="technical-support.php" title="Technical Support">Technical Support</a></li>
+                        <li><a href="sales-department.php" title="Sales Department">Sales Department</a></li>
+                        <li><a href="update-my-account.php" title="Update My Account">Update My Account</a></li>
+                        <li><a href="http://www.payscout.com/merchants/login.php" target="_blank" title="Application Status">My Application Status</a></li>
+                        <li><a href="my-merchant-statements.php" title="My Merchant Statements">My Merchant Statements</a></li>
+                        <li><a href="https://secure.payscout.com/merchants/login.php" target="_blank" title="Payscout Gateway Login">Payscout Gateway Login</a></li>
+                         <li><a href="https://secure.payscout.net/management" target="_blank" title="Offshore Gateway Login">Offshore Gateway Login</a></li>
+                     </ul>
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>PARTNERS</strong></p>
+                        </li>
+                       <li><a href="partners-customer-service.php" title="Customer Service">Customer Service </a></li>
+                        <li><a href="partners-technical-support.php" title="Technical Support">Technical Support</a></li>
+                        <li><a href="partners-faqs.php" title="FAQ's">FAQ's</a></li>
+                         <li><a href="https://crm.payscout.net/Login.aspx" target="_blank" title="CRM Login">CRM Login</a></li>
+                         <li><a href="https://secure.payscout.com/resellers/login.php" target="_blank" title="Gateway Reseller Login">Gateway Reseller Login</a></li>
+                        <li><a href="#" title="Application Manager">Application Manager</a></li>
+                          </ul>
+                      
+                      <ul class="col-sm-2 small_box list-unstyled">
+                        <li>
+                          <p><strong>DEVELOPERS</strong></p>
+                        </li>
+                        <li><a href="gateway-api.php" title="Gateway API">Gateway API</a></li>
+                        <li><a href="mobile-api.php" title="Mobile API">Mobile API </a></li>
+                        <li><a href="international-api.php" title="International API">International API</a></li>
+                        <li><a href="shopping-cart-plugins.php" title="Shopping Cart Plugins">Shopping Cart Plugins</a></li>
+                        <li><a href="custom-integration.php" title="Custom Integration">Custom Integration</a></li>
+                      </ul>
+                      
+                      <ul class="col-sm-2 last_box list-unstyled">
+                        <li>
+                          <p><strong>LEARNING &amp; RESOURCES</strong></p>
+                        </li>
+                        <li><a href="resource-center.php" title="Resource Center">Resource Center </a></li>
+                        <li><a href="community-forum.php" title="Community Forum">Community Forum</a></li>
+                        <li><a href="http://blog.payscout.com" target="_blank" title="Payscout Blog">Payscout Blog</a></li>
+                        <li><a href="newsroom.php" title="Newsroom">Newsroom</a></li>
+                      </ul>
+
+                      
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </li>
+        <!--/.support links-->
+              </ul>
+
+    </div><!-- /.navbar-collapse -->
+
+</nav></div>
+<div class="col-sm-3 hidden-xs hidden-sm ">
+<ul class="top_links">
+<li>1.888.689.6088</li>
+<li id="comm100-button-2640">Live Chat</li>
+<li><a href="gateway-login.php" title="Merchant Login">Login</a></li>
+</ul>
+<div class="started_btn"> <a href="get-started.php" title="Get Started" class="btn btn-primary">GET STARTED</button></a>
+</div>
+</div>
+</div>
+</header>  
+
+ <div class="grid-container"> 
+        <div class="inner_header retail">
+          <div class="container">
+            <div class="row">
+            <table width="100%">
+                <tr>
+                  <td height="243" valign="middle">
+              <div class="col-md-12 col-sm-12">
+              <h1 class="byindustry_header">404</h1>
+              <h3 class="taglines2">Opps! page not found.</h3><br>
+
+           <div class="started_btn"> <a href="http://www.payscout.com/merchants/get-started.php?formname=Retail" class="btn btn-primary">APPLY ONLINE NOW</button></a> </div></td>
+                </tr>
+              </table>
+            
+               </div>
+               </div>
+          <div class="submenu_bg">
+              <div class="container">
+                <div class="row">
+                <div class="col-md-12 col-sm-12">
+                 <div class="submenu">
+                <table>
+                <tr>
+                <td valign="middle">
+                 <ul class="byindustry">
+                <li><b>By Industry</b></li>
+                 <img src="images/nav_arrow.png" width="19" height="57" alt="" class="navdivider"/>
+                 </ul>
+                </td>
+             
+                <td>
+                 <ul class="industry_submenu">
+                 <li><a href="retail-credit-card-processing.php" title="Retail" class="active">Retail</a></li>
+                 <li><a href="ecommerce.php" title="E-commerce">E-commerce</a></li>
+                 <li><a href="high-risk-credit-card-processing.php" title="High Risk">High Risk</a></li>
+                 <li><a href="debt-collection-credit-card-processing.php" title="High Risk">Debt Collection</a></li>
+                 <li><a href="nonprofit.php" title="Nonprofit">Nonprofit</a></li>
+                 <li><a href="cloud.php" title="Cloud">Cloud</a></li>
+                 <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
+                 <li><a href="other.php" title="Other">Other</a> </li>
+                     </ul>
+                </td>
+                </tr>
+                
+                </table>
+                 </div>
+                 </div>
+                 </div>
+              </div>
+            </div>
+       		 </div>
+          
+
+      </div>
+
+<!--start page content from here-->
+<div class="page_content">
+
+<!--start content area-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+    <div class="contantpage">
+      <h1 style="color: #0095DA">Page Not Found</h1>
+      <p>Dear Customer!!<br/>It is look like page you are requesting not found.</p>
+     
+   
+    
+      
+</div>  
+<br>
+    </div>
+
+    </div>
+  </div>
+
+</div>
+<!--/. end content area--> 
+<!--start contact--> 
+<div class="contact_section">
+  <div class="container2">
+    <!--payment solution box-->
+    <div class="payment_solution_box" id="products">
+      <!--start left section-->
+      <div class="row mobile_col">
+        <div class="col-sm-4 left_section2">
+         <div class="row sm_box2">
+            <div class="col-sm-10"><img src="images/phone-icon.png" alt=""></div>
+          </div>
+          <div class="row sm_box2">
+            <div class="col-sm-10">
+              <h2><a href="customer-service.php">Contact Us</a></h2>
+              <p2>Mon-Fri 9am-7:30pm EST</p2>
+            </div>
+          </div>
+                 </div>
+        <!--/. end left section-->
+        <!--start mobile image-->
+        <div class="col-sm-4 center_section2">
+          <div class="row sm_box2">
+            <div class="col-sm-10"><img src="images/chat-icon.png" alt=""></div>
+          </div>
+          <div class="row sm_box3">
+            <div class="col-sm-10" id="comm100-button-2638">
+              <div class="h2">Live Chat</div>
+              <p2></p2>
+            </div>
+            <div class="col-sm-10">
+              <p2>Speak to a sales agent now</p2>
+            </div>
+          </div>
+        </div>
+        <!--/. end mobile image-->
+        <!--start right section-->
+        <div class="col-sm-4 right_section2">
+          <div class="row sm_box2">
+            <div class="col-sm-10"><img src="images/email-icon.png" alt=""></div>
+          </div>
+          <div class="row sm_box2">
+            <div class="col-sm-10">
+              <h2><a href="customer-service.php">Email Us</a></h2>
+              <p2>Receive a response in 24 hours</p2>
+            </div>
+          </div>
+        </div>
+        <!--/. end right section-->
+      </div>
+    </div>
+    <!--/. end payment solution box-->
+  </div>
+</div>
+<!--/. end contact-->
+<!--start footer from here--><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><footer class="footer">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-2 col-md-2 ft_links hidden-sm hidden-xs">
+<h5>About Us</h5>
+<ul>
+<li><a href="company.php">Company</a></li>
+<li><a href="clients.php">Our Clients</a></li>
+<li><a href="testimonials.php">Testimonials</a></li>
+<li><a href="careers.php">Career Opportunities</a></li>
+<li><a href="locations.php">Locations</a></li>
+<li><a href="newsroom.php">Newsroom</a></li>
+<li><a href="http://blog.payscout.com/" target="_blank">Payscout Blog</a></li>
+</ul>
+
+</div>
+
+<div class="col-sm-2 col-md-2 ft_links  hidden-sm hidden-xs">
+<h5>Partners</h5>
+<ul>
+<li><a href="iso-agents.php">Partnership Program</a></li>
+<li><a href="referral-program.php">Referral Program</a></li>
+<li><a href="software-vendors.php">Software Vendors</a></li>
+<li><a href="equipment-vendors.php">Equipment Vendors</a></li>
+<li><a href="featured-partners.php">Featured Partners</a></li>
+<li><a href="partner-testimonials.php">Partner Testimonials</a></li>
+<li><a href="become-a-partner.php">Become A Partner</a></li>
+</ul>
+
+</div>
+
+<div class="col-sm-2 col-md-2 ft_links  hidden-sm hidden-xs">
+<h5>Get Started</h5>
+<ul>
+<li><a href="retail-credit-card-processing2.php">Retail Point of Sale</a></li>
+<li><a href="online.php">E-Commerce / Online</a></li>
+<li><a href="professional-services.php">Professional Services</a></li>
+<li><a href="mobile.php">Mobile Processing</a></li>
+<li><a href="ach.php">ACH Processing</a></li>
+<li><a href="surcharge-processing.php">Surcharge Processing</a></li>
+<li><a href="high-risk-credit-card-processing.php">High-Risk Processing</a></li>
+</ul>
+
+</div>
+
+<div class="col-sm-2 col-md-2 ft_links  hidden-sm hidden-xs">
+<h5>Support</h5>
+<ul>
+<li><a href="technical-support.php">Technical Support </a></li>
+<li><a href="customer-service.php">Customer Service</a></li>
+<li><a href="sales-department.php">Sales Department</a></li>
+<li><a href="resource-center.php">Resource  Center</a></li>
+<li><a href="update-my-account.php">Update Your Account</a></li>
+<li><a href="http://www.payscout.com/merchants/login.php" target="_blank">My Application Login</a></li>
+<li><a href="gateway-login.php">Gateway Login</a></li>
+</ul>
+
+</div>
+<div class="col-sm-12 col-md-2">
+  <h5>Affiliations</h5>
+  <p class="top_space"><a href="http://www.inc.com/profile/payscout" target="_blank"><img src="images/inc5000.png" alt=""></a></p>
+  <p class="top_space"><a href="http://www.bbb.org/los-angeles/business-reviews/payment-processing-service/payscout-in-van-nuys-ca-1014220#sealclick" target="_blank"><img src="images/bbb.png" alt="" width="120" height="40" class="img-responsive"></a></p>
+</div>
+<div class="col-sm-12 col-md-2 social_media">
+  <h5>Connect with Us</h5>
+  <ul>
+    <li><a href="https://twitter.com/Payscout" target="_blank" class="icon twitter"></a></li>
+    <li><a href="https://www.linkedin.com/company/payscout-inc" target="_blank" class="icon linkedin"></a></li>
+    <li><a href="https://www.facebook.com/PayscoutInc" target="_blank" class="icon facebook"></a></li>
+    </ul>
+  <p class="top_space"> Payscout, Inc.<br>
+    Los Angeles • New Jersey <br>
+    Shanghai • São Paulo <br>
+    <b> 1-888-689-6088</b></p>
+    <span class="bottomlinks">
+    <a href="company.php">Company Overview</a> | <a href="clients.php">Clients</a> | <a href="testimonials.php">Testimonials</a> | <a href="careers.php">Careers</a> | <a href="locations.php">Locations</a> | <a href="newsroom.php">Newsroom</a> | <a href="http://blog.payscout.com/">Blog</a>
+    </span>
+
+
+</div>
+</div>
+<div class="bottom_box">
+<div class="col-sm-12 col-md-11 padding_zero">
+<p class="copyright_txt">Payscout, Inc. is a registered ISO of Deutsche Bank, USA, New York, NY. American Express may require separate approval.<br/>
+
+Payscout is a registered TPP with VISA LAC and MasterCard Intl. Payscout Brazil is a registered PSP  in Brazil. Payscout is a registered PSP with China UnionPay.<br/>
+Payscout is a registered ISO with VISA EU and MasterCard Intl. Copyright &copy; 2015 Payscout, Inc. All Rights Reserved. <a href="privacy.php">Privacy Policy</a> </p>
+</div>
+<div class="col-sm-12 col-md-1 padding_zero right_logo"><img src="images/p-logo.png" alt=""></div>
+</div>
+</div>
+
+</footer></td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="js/bootstrap-formhelpers.min.js"></script>
+<script src="js/google.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/custom.js"></script>
+<script type='text/javascript' src='js/modernizr.min.js?ver=2.6.2'></script>
+<script type='text/javascript' src='js/ut-fancyslider.js?ver=1.0'></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- live chat --> 
+<script type="text/javascript">
+    var Comm100API = Comm100API || new Object;
+    Comm100API.chat_buttons = Comm100API.chat_buttons || [];
+    var comm100_chatButton = new Object;
+    comm100_chatButton.code_plan = 2638;
+    comm100_chatButton.div_id = 'comm100-button-2638';
+    Comm100API.chat_buttons.push(comm100_chatButton);
+    Comm100API.site_id = 126977;
+    Comm100API.main_code_plan = 2638;
+
+    var comm100_lc = document.createElement('script');
+    comm100_lc.type = 'text/javascript';
+    comm100_lc.async = true;
+    comm100_lc.src = 'https://chatserver.comm100.com/livechat.ashx?siteId=' + Comm100API.site_id;
+    var comm100_s = document.getElementsByTagName('script')[0];
+    comm100_s.parentNode.insertBefore(comm100_lc, comm100_s);
+
+    setTimeout(function() {
+        if (!Comm100API.loaded) {
+            var lc = document.createElement('script');
+            lc.type = 'text/javascript';
+            lc.async = true;
+            lc.src = 'https://hostedmax.comm100.com/chatserver/livechat.ashx?siteId=' + Comm100API.site_id;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(lc, s);
+        }
+    }, 5000)
+</script>
+<!--Begin Comm100 Live Chat Code-->
+<div id="comm100-button-2640"></div>
+<script type="text/javascript">
+    var Comm100API = Comm100API || new Object;
+    Comm100API.chat_buttons = Comm100API.chat_buttons || [];
+    var comm100_chatButton = new Object;
+    comm100_chatButton.code_plan = 2640;
+    comm100_chatButton.div_id = 'comm100-button-2640';
+    Comm100API.chat_buttons.push(comm100_chatButton);
+    Comm100API.site_id = 126977;
+    Comm100API.main_code_plan = 2640;
+
+    var comm100_lc = document.createElement('script');
+    comm100_lc.type = 'text/javascript';
+    comm100_lc.async = true;
+    comm100_lc.src = 'https://chatserver.comm100.com/livechat.ashx?siteId=' + Comm100API.site_id;
+    var comm100_s = document.getElementsByTagName('script')[0];
+    comm100_s.parentNode.insertBefore(comm100_lc, comm100_s);
+
+    setTimeout(function() {
+        if (!Comm100API.loaded) {
+            var lc = document.createElement('script');
+            lc.type = 'text/javascript';
+            lc.async = true;
+            lc.src = 'https://hostedmax.comm100.com/chatserver/livechat.ashx?siteId=' + Comm100API.site_id;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(lc, s);
+        }
+    }, 5000)
+</script>
+<!--End Comm100 Live Chat Code-->
+<script type="text/javascript">
+    var Comm100API = Comm100API || new Object;
+    Comm100API.chat_buttons = Comm100API.chat_buttons || [];
+    var comm100_chatButton = new Object;
+    comm100_chatButton.code_plan = 2595;
+    comm100_chatButton.div_id = 'comm100-button-2595';
+    Comm100API.chat_buttons.push(comm100_chatButton);
+    Comm100API.site_id = 126977;
+    Comm100API.main_code_plan = 2595;
+
+    var comm100_lc = document.createElement('script');
+    comm100_lc.type = 'text/javascript';
+    comm100_lc.async = true;
+    comm100_lc.src = 'https://chatserver.comm100.com/livechat.ashx?siteId=' + Comm100API.site_id;
+    var comm100_s = document.getElementsByTagName('script')[0];
+    comm100_s.parentNode.insertBefore(comm100_lc, comm100_s);
+
+    setTimeout(function() {
+        if (!Comm100API.loaded) {
+            var lc = document.createElement('script');
+            lc.type = 'text/javascript';
+            lc.async = true;
+            lc.src = 'https://hostedmax.comm100.com/chatserver/livechat.ashx?siteId=' + Comm100API.site_id;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(lc, s);
+        }
+    }, 5000)
+</script>
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/448170.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+</body>
+</html>  
