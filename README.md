@@ -1,0 +1,1 @@
+Using provided wireframes and some finished design work, this is the building out and rebranding of a coach/mentor connection platform.  
