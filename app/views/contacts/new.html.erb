@@ -1,0 +1,36 @@
+
+<div class="container" id="contact_us_container">
+  <h1 id="page_title">Contact Us!</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>
+        MentorMapp Coaching Marketplace is a safe, efficient, affordable way to match coaches with people seeking coaching in leadership, management, and wellbeing.
+      </p>
+      <div>
+        <%= form_for @contact do |f| %>
+          <%= f.label :first_name %><br>
+          <%= f.text_field :first_name, required: true %>
+          <br>
+          <%= f.label :last_name %><br>
+          <%= f.text_field :last_name, required: true %>
+          <br>
+          <%= f.label :email %><br>
+          <%= f.text_field :email, required: true %>
+          <div class="hidden">
+            <%= f.label :nickname %><br>
+            <%= f.text_field :nickname, hint: 'leave this field blank' %>
+          </div>
+          <br>
+          <br>
+          <br>
+          <%= f.submit 'Send Message', class: "button" %>
+          <% end %>
+
+      </div>
+
+    </div>
+    <div class="col-sm-8">
+      <%= link_to image_tag("landing-image.jpg", :alt => "Many Portraits"), {:ID => "IMG_10"} %> 
+    </div>
+  </div>
+</div>
