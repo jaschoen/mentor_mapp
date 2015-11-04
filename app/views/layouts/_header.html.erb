@@ -1,16 +1,18 @@
-<header class="navbar navbar-fixed-top transparent header">
-  <div class="container">
-    <div class ="col-sm-3 logo" >
-    <%= link_to image_tag("mentor_mapp.png", size: "300x90", alt: "MentorMapp Logo"), root_path, id:"kensho_logo" %>
+<div class="container"> 
+  <header class="navbar navbar-fixed-top transparent header">
+    <div class="container">
+      <div class ="col-sm-3 logo" >
+      <%= link_to image_tag("mentor_mapp.png", size: "300x90", alt: "MentorMapp Logo"), root_path, id:"kensho_logo" %>
+      </div>
+      <div class="col-sm-9 nav_box">
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Find a Coach",     '#' %></li>
+            <li><%= link_to "Become a Coach",   '#' %></li>
+            <li><%= link_to "Contact",          new_contact_path %></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="col-sm-9 nav_box">
-      <nav>
-        <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to "Find a Coach",     '#' %></li>
-          <li><%= link_to "Become a Coach",   '#' %></li>
-          <li><%= link_to "Contact",          new_contact_path %></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
+  </header>
+</div>
