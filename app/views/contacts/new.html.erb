@@ -1,10 +1,10 @@
 
 <div class="container" id="contact_us_container">
-  <h1 id="page_title">Contact Us!</h1>
+  <h1 id="page_title"></h1>
   <div class="row">
     <div class="col-sm-4">
       <p>
-        MentorMapp Coaching Marketplace is a safe, efficient, affordable way to match coaches with people seeking coaching in leadership, management, and wellbeing.
+        MentorMapp is a safe, efficient, and affordable way to match coaches or mentors with people (or companies) seeking professional development in leadership, management, andwellbeing.
       </p>
       <div>
         <%= form_for @contact do |f| %>
@@ -18,7 +18,7 @@
           <%= f.text_field :email %>
           <br>
           <%= f.label :message %><br>
-          <%= f.text_field :message %>
+          <span class="text_area"><%= f.text_area :message%></span>
           <div class="hidden">
             <%= f.label :nickname %><br>
             <%= f.text_field :nickname, hint: 'leave this field blank' %>
