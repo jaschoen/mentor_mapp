@@ -1,16 +1,13 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p id="notice"><%= notice %></p>
+<div class="profile_container">
+  <p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_profile_path(@profile) %> |
-<%= link_to 'Back', profiles_path %>
 
-<br>
- <h1><%= @profile.last_name %></h1>
+
+
+   <h1><%= @profile.first_name  %></h1>
+   <h1><%= @profile.last_name  %></h1>
+  
+
+  <%= link_to 'Edit', edit_profile_path(@profile) %> |
+  <%= link_to 'Back', profiles_path %>
+</div>
