@@ -5,8 +5,14 @@ class ProfilesController < ApplicationController
     @profiles = Profile.all
   end
 
+  def show
+  end
+
   def new
     @profile = Profile.new
+  end
+
+  def edit
   end
 
   def create
@@ -19,19 +25,18 @@ class ProfilesController < ApplicationController
     end
   end
 
-  def show
-  end
 
-  def edit
-  end
+
+
 
   def update
-    if @profile.update profile_params
+    if @profile.update(profile_params)
       redirect_to @profile, notice: "Profile Updated"
     else 
       render 'edit'
     end
   end
+
 
   # def destroy
   #   @profile.destroy

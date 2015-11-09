@@ -1,7 +1,32 @@
 .profile_container {
-  margin: 100px 10px;
+  margin: 120px 10px;
   label {
     text-align: right;
   }
 }
 
+.image {
+  float:left;
+}
+
+.pic_with_name {
+  a {
+    float:left;
+  }
+  margin: 30px;
+}
+.profile_info {
+  float:right;
+}
+
+.profile_videos {
+  .intro_video {
+    float:left;
+  }
+  .what_sets_you_apart_video {
+    float:right;
+  }
+  p {
+    font-weight: 700;
+  }
+}

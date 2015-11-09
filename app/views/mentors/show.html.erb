@@ -1,26 +1,21 @@
-
-
-
 <div class="profile_container">
-    <p id="notice"><%= notice %></p>
+    <h1 class="alert-info mentor_alert"><%= notice %></h1>
 
-
-    <%= link_to 'Back', profiles_path %>
 <!-- Pic and contact info -->
   <div class="container">
     <div class="pic_with_name col-sm-6">
       <%= link_to image_tag("testimonial2.png", :height => 200, :width => 200, :alt => "Person1"), {:class => "", :alt => "Profile Picture"} %> 
       <div class="profile_info">
-        <h2><%= @profile.first_name  %> <%= @profile.last_name  %></h2>
-        <h4><%= @profile.industry  %> </h4>
-        <h4><%= @profile.city %>, <%= @profile.state %></h4>
+        <h2><%= @mentor.first_name  %> <%= @mentor.last_name  %></h2>
+        <h4><%= @mentor.industry  %> </h4>
+        <h4><%= @mentor.city %>, <%= @mentor.state %></h4>
         <button class="btn-lg btn-block"> Contact </button><br>
         <button class="btn-lg btn-block"> Add to favorites </button>
 
       </div>
     </div>
   </div>
-<!-- Profile Videos -->
+<!-- mentor Videos -->
   <div class="profile_videos container">
     <div class="wrapper">
       <div class="sm-col-6 intro_video">
@@ -36,8 +31,9 @@
 <!-- Bio -->
   <div class="container">
     <h2>Bio</h2>
-    <%= @profile.bio  %>
+    <%= @mentor.bio  %>
   </div>
 </div>
-<%= link_to 'Edit', edit_profile_path(@profile) %> |
-<%= link_to 'Back', profiles_path %>
+
+<%= link_to 'Edit', edit_mentor_path(@mentor) %> |
+<%= link_to 'Back', mentors_path %>

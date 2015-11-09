@@ -1,0 +1,43 @@
+<div class="container profile_container">
+  <div class="col-sm-6">
+    <div>
+      <%= simple_form_for(@mentor) do |f| %>
+      <%= f.error_notification %>
+      <%= f.label :first_name %><br>
+      <%= f.input_field :first_name %><br>
+      <%= f.label :last_name %><br>
+      <%= f.input_field :last_name %><br>
+      <%= f.label :industry %><br>
+      <%= f.input_field :industry %><br>
+      <%= f.label :city %><br>
+      <%= f.input_field :city %><br>
+      <%= f.label :state %><br>
+      <%= f.input_field :state %><br>
+      <%= f.label :coach_type %><br>
+      <%= f.input_field :coach_type %><br>
+      <%= f.label :rating %><br>
+      <%= f.input_field :rating %><br>
+      <%= f.label :price_low %><br>
+      <%= f.input_field :price_low %><br>
+      <%= f.label :price_high %><br>
+      <%= f.input_field :price_high %><br>
+    </div>
+  </div>
+  <div class="col-sm-6">
+      <%= f.label :language %><br>
+      <%= f.input_field :language %><br>
+      <%= f.label :certification %><br>
+      <%= f.input_field :certification %><br>
+      <%= f.label :skills %><br>
+      <%= f.input_field :skills %><br>
+      <%= f.label :experience %><br>
+      <%= f.input_field :experience %><br>
+      <%= f.label :email %><br>
+      <%= f.input_field :email %><br>
+      <%= f.label :bio %><br>
+      <%= f.input_field :bio %><br><br>
+      <%= f.button :submit %>
+      <% end %>
+    </div>
+  </div>
+</div>
