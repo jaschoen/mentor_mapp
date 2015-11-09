@@ -15,7 +15,7 @@ class ProfilesController < ApplicationController
       redirect_to @profile, notice: "Profile Saved"
       # byebug
     else
-      render 'new'
+      render 'new' 
     end
   end
 
