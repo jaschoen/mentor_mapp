@@ -9,3 +9,20 @@
 .pricing_area {
   margin: 70px;
 }
+
+.front_image {
+    color: #826767;
+    float: left;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 30%; 
+   margin: 10%
+}
