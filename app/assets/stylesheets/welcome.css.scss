@@ -10,31 +10,27 @@
   margin: 70px;
 }
 
-.front_image {
-    color: #826767;
-    float: left;
-}
+
 
 
 // div {
 //   border: 2px solid red;
 // }
 
-// .image { 
-//    position: relative; 
-//    width: 100%; /* for IE 6 */
-// }
+.front_image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
 
-// h1 { 
-//    position: absolute; 
-//    top: 200px; 
-//    left: 0; 
-//    width: 30%; 
-//    margin: 10%
-// }
+.front_text { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 30%; 
+   margin: 10%;
+   color: #826767;
+   float: left;
+   font-size: 220%;
+   // font-weight: bold;
+}
 
-// .def_mentormapp {
-//   float:none;
-//   position: absolute;
-//   top: 0px;
-// }
