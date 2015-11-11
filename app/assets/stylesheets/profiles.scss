@@ -20,13 +20,21 @@
 }
 
 .profile_videos {
+  max-width: 1200px; 
+  min-width: 1000px; 
+  // padding: none;
   .intro_video {
-    float:left;
+    // float:left;
   }
   .what_sets_you_apart_video {
-    float:right;
+    // float:right;
+    // margin-left: 5%;
   }
   p {
     font-weight: 700;
   }
+}
+
+.container {
+
 }
